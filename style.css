@@ -37,6 +37,32 @@
   border: 5px solid #212529;
 }
 
+.carousel-indicators {
+  position: static;
+}
+
+.carousel-caption-top {
+  position: relative;
+  text-align: center;
+  padding-bottom: 15px
+}
+
+img.img-c {
+  width: auto !important; 
+}
+
 .p-j {
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .p-j {
+    text-align: left;
+    text-justify: auto;
+  }
+
+  img.img-c {
+  width: 75% !important; 
+}
+
 }
